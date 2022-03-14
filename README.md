@@ -6,7 +6,7 @@
 ```
 https://github.com/rocketseat-education/maratona-discover-01
 ```
-* Link da base
+* Link da base 14/03/2022 parei 2:26min retornar
 ```
 https://app.rocketseat.com.br/node/maratona-discover-edicao-01/lesson/aula-01
 ```

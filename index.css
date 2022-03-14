@@ -1,0 +1,83 @@
+:root {
+    --dark-blue: blue;
+    --dark-gold: goldenrod;
+    --dark-white: white;
+    --dark-pupler: purple;
+}
+* {
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:ital,wght@0,200;0,300;0,400;0,700;1,400&display=swap');
+
+body{
+    background-color: #f0f2f5;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    /* background-color: #2D4A22; */
+    background-color: var(--dark-pupler);
+    padding: 2rem 0 10rem;
+    text-align: center;
+}
+header h1{
+    color: var(--dark-white);
+}
+
+.container{
+    width: min(90vw, 800px); margin: auto;
+}
+h2{
+    margin-top: 3.2rem;
+    margin-bottom: 0.8rem;
+    color: var(--dark-pupler);
+    font-weight: normal;
+}
+/** Balance ==================================================================*/
+#transaction{ /** Altura do Main*/
+    margin-top: -6rem;
+}
+#transaction h2{
+    color: white;
+    margin-top: 0;
+}
+/** Card ==================================================================*/
+.card{
+    background-color: white;
+    padding: 1.5rem 2rem;
+    border-radius: 0.25rem;
+    margin-bottom: 2rem;
+}
+.card h3 {
+    font-weight: normal;
+    font-size: 1rem;
+}
+.card p {
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-top: 1rem;
+}
+.card.total{
+    color: var(--dark-white);
+    background-color: var(--dark-pupler);
+}
+/** Table ==================================================================*/
+#data-table{
+    width: 100%;
+}
+table tbody{
+    background-color:white;
+    text-align: center;
+    border-spacing: 0 0.5rem;
+}
+table th{
+    background-color: white;
+    opacity: 0.6;
+}
+table tr{
+    height: 35px;
+}
+/** Footer ==================================================================*/
+footer{
+    text-align: center;
+}
