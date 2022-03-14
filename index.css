@@ -48,6 +48,10 @@ h2{
     border-radius: 0.25rem;
     margin-bottom: 2rem;
 }
+.card:hover{
+    background-color: greenyellow !important;
+    color: black !important;
+}
 .card h3 {
     font-weight: normal;
     font-size: 1rem;
@@ -56,6 +60,11 @@ h2{
     font-size: 2rem;
     line-height: 3rem;
     margin-top: 1rem;
+}
+.card p:hover{
+    font-size: 2.5rem;
+    color: var(--dark-gold);
+    cursor: pointer;
 }
 .card.total{
     color: var(--dark-white);
@@ -77,7 +86,17 @@ table th{
 table tr{
     height: 35px;
 }
+/** Table Efeitos==================================================================*/
+tbody tr:hover{
+    background-color: greenyellow;
+    color: black;
+    box-sizing: border-box;
+}
 /** Footer ==================================================================*/
 footer{
     text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    color: var(--dark-pupler);
+    font-size: 20px;
 }
